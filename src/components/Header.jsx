@@ -12,13 +12,13 @@ function Header({ scrollToForm }) {
               <p className="text-sm text-gray-600">Medical Coding Classes</p>
             </div>
           </div>
-          <button
+          {/* <button
             onClick={scrollToForm}
             className="bg-primary-600 text-white px-6 py-2 rounded-lg hover:bg-primary-700 transition-colors focus:outline-none focus:ring-2 focus:ring-primary-500 focus:ring-offset-2"
             aria-label="Enquire Now"
           >
             Enquire Now
-          </button>
+          </button> */}
         </div>
       </nav>
     </header>
