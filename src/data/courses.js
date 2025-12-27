@@ -22,6 +22,22 @@ export const courses = [
       "Industry best practices",
       "Mock exams and assessments"
     ]
+  },
+  {
+    title: "Basic + CPC Medical Coding",
+    fee: 17000,
+    discountedFee: 10000,
+    bullets: [
+      "Introduction to medical coding",
+      "ICD-10-CM basics",
+      "CPT coding fundamentals",
+      "Medical terminology",
+      "Advanced medical coding techniques",
+      "CPC certification preparation",
+      "Complex coding scenarios",
+      "Industry best practices",
+      "Mock exams and assessments"
+    ]
   }
 ];
 
