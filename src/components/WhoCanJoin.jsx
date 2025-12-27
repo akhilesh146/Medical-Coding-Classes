@@ -2,7 +2,7 @@ function WhoCanJoin() {
   const eligible = [
     "D.Pharma",
     "B.Pharma",
-    "Any life-science graduate"
+    "Any life-science graduate (B.Sc, M.Sc)"
   ]
 
   return (

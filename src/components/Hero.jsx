@@ -1,6 +1,10 @@
+import ScrollingNotification from './ScrollingNotification'
+
 function Hero({ scrollToForm }) {
   return (
-    <section className="bg-gradient-to-br from-primary-50 to-primary-100 py-16 md:py-24">
+    <>
+      <ScrollingNotification />
+      <section className="bg-gradient-to-br from-primary-50 to-primary-100 py-16 md:py-24">
       <div className="container mx-auto px-4">
         <div className="max-w-4xl mx-auto text-center fade-in">
           {/* <div className="inline-block mb-6">
@@ -42,6 +46,7 @@ function Hero({ scrollToForm }) {
         </div>
       </div>
     </section>
+    </>
   )
 }
 
